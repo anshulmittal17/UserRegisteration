@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.Trex.DeckDesiner.Automation.TestCases.ValidateUserRegisterationAPI">
+        <methods>
+          <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="invalidateRegisterationWithoutDetails"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.Trex.DeckDesiner.Automation.TestCases.ValidateUserRegisterationAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
